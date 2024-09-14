@@ -15,6 +15,7 @@ python run.py
 Run react backend
 ```
 cd frontend
+npm install
 npm start
 ```
 
