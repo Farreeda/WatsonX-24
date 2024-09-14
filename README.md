@@ -1,5 +1,20 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Watsonx.ai IBM hackathon 2024: <Project Name>
 
-A Flask based API backend was added in the *api* directory.
+## Development
+### How to run 
+Run flask backend
+```
+git clone <project_url>
+cd backend
+pip install -r requirements.txt
+python init_db.py #run sqlite db
+python run.py
+```
+(Recommended) Use python virtual enviroment
 
-Read my [tutorial](https://blog.miguelgrinberg.com/post/how-to-create-a-react--flask-project) on how to create Flask + React combined projects.
+Run react backend
+```
+cd frontend
+npm start
+```
+
