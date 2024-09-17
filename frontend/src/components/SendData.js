@@ -1,5 +1,6 @@
 // src/components/SendData.js
 import React, { useState } from "react";
+import ChatBox from "./ChatBox";
 
 function SendData() {
   const [inputData, setInputData] = useState("");
@@ -26,10 +27,12 @@ function SendData() {
   return (
     <form onSubmit={handleSubmit}>
       <label>
-        Enter Data:
+        <ChatBox />
         <input type="text" value={inputData} onChange={handleChange} />
       </label>
-      <button type="submit">Submit</button>
+      <button variant="contained" type="submit">
+        Send
+      </button>
     </form>
   );
 }
