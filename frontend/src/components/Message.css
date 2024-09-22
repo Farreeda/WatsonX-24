@@ -1,0 +1,10 @@
+/* src/components/Message.css */
+.user {
+    text-align: right;
+    color: blue;
+}
+
+.bot {
+    text-align: left;
+    color: green;
+}
