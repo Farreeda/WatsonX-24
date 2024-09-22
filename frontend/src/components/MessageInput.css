@@ -1,0 +1,14 @@
+/* src/components/MessageInput.css */
+.message-input {
+    display: flex;
+    margin-top: 10px;
+}
+
+.message-input input {
+    flex: 1;
+    padding: 10px;
+}
+
+.message-input button {
+    padding: 10px;
+}
